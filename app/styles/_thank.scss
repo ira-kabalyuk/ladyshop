@@ -1,0 +1,61 @@
+$icon-font-path: '../fonts/';
+
+$page-color: #313131;
+$border-color: #dddddd;
+
+.thank {	
+
+	.content-block {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		text-align: center;		
+
+		p {
+			text-align: center;
+		}	
+
+	}
+
+	.content {
+		max-width: 680px;
+	}
+
+	.title {
+		font-size: 17px;
+		font-weight: 600;
+		color: #bc3b5d;
+		margin: 25px auto;
+	}
+
+	.text {
+		font-size: 15px;
+		font-weight: 600;
+		line-height: 1.5em;
+
+		a {
+			color: #bc3b5d;
+			text-decoration: underline;
+
+			&:hover,
+			&:focus,
+			&:active {
+				color: #bc3b5d;
+				text-decoration: none;
+			}
+
+		}
+
+	}
+
+	.button {
+		display: block;
+		width: 228px;
+		height: 45px;
+		border-radius: 3px;
+		padding: 13px 0;
+		margin: 30px auto 0;
+	}
+
+}

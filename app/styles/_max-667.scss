@@ -1,0 +1,47 @@
+$icon-font-path: '../fonts/';
+
+@media only screen and (max-width: 667px) {
+
+ //HOMEPAGE
+
+	 	.homepage {
+
+	 		.content-wrap {
+
+	 			.title {
+				font-size: 14px;
+	 			}
+
+	 		}
+
+	 		.content-button {
+	 			width: 80px;
+	 			height: 30px;
+	 			font-size: 12px;
+	 			padding: 7px 0;
+	 		}
+
+		 	.slide-wrap {
+
+		 		.img-wrap {
+					width: 220px;
+		 		}
+
+		 		.description-block {
+		 			width: 220px;
+		 			left: 50%;
+		 			margin-left: -110px;
+		 			font-size: 12px;
+		 		}
+
+		 	}
+
+	 }
+
+	 //CATALOG 
+
+	.catalog {
+		
+	}	
+
+}

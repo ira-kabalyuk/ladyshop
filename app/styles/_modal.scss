@@ -1,0 +1,156 @@
+$icon-font-path: '../fonts/';
+
+$page-color: #313131;
+$border-color: #dddddd;
+
+.modal {
+
+	button {
+		display: inline-block;		 
+		//background: url(../images/sprite.png);
+		margin: 15px 35px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 10;
+	}
+
+	
+	p {
+		font-size: 16px;
+		font-weight: 400;
+		color: $page-color;
+	}
+
+	.modal-dialog {
+		background: #fff;
+	}
+
+	.modal-content {
+		border-radius: 0;
+		box-shadow: none;		
+	}
+
+	.modal-header {
+		border-bottom: none;
+		padding: 0 0 15px 0;
+	} 
+
+	.modal-body {		
+		padding: 15px 35px;
+	}
+
+	.modal-cart-block {
+		height: 118px;
+		padding: 15px 0;
+		//margin: 15px auto 15px 0;
+		border-bottom: 1px solid $border-color;
+		box-sizing: border-box;		
+
+		&:last-child {
+			border-bottom: none;
+			margin-bottom: 0;
+		}
+
+	}
+
+	.is-close {
+		display: none;
+		//transition: height 0.4s;
+	}
+
+	.cart-img-block {
+		width: 60px;
+		height: 100%;
+		overflow: hidden;
+		border-radius: 3px;
+		float: left;
+
+		img {			
+			width: 100%;
+		}
+
+	}
+
+	.cart-description-block {
+		float: left;
+		margin-left: 13px;
+
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+		height: 100%;
+		justify-content: space-between;
+	}
+
+	h4 {
+		font-size: 16px;
+		font-weight: 400;
+		color: #000;
+	}
+
+	.description {
+		font-size: 14px;
+		font-weight: 400;
+		color: #727272;
+	}
+
+	.cart-price {
+		font-size: 16px;
+		font-weight: 600;
+		color: $page-color;
+	}
+
+	.delete-link {
+		display: inline-block;
+		float: right;
+		padding: 34px 0;
+		font-size: 14px;
+		font-weight: 400;
+		color: #dc617d;
+		text-decoration: underline;
+		cursor: pointer;
+
+		&:hover,
+		&:active,
+		&:focus {
+			text-decoration: underline;
+		}
+
+	}
+
+	.modal-footer {
+		border-top: none;
+		padding: 0;
+		text-align: center;
+	}
+
+	.modal-button {
+		color: #fff;
+		width: 100%;
+		background: #dc617d;
+		height: 50px;
+		text-align: center;
+		font-size: 15px;
+		font-weight: 600;
+		display: block;
+		padding: 15px 0;
+		border: none;
+		border-radius: 3px;		
+
+		&:hover,
+		&:active,
+		&:focus {
+			text-decoration: none;
+			background: #cb3256;
+			transition: background 1s ease;
+		}
+
+	}
+
+	.icon-cart-button {
+		margin-right: 13px;
+		vertical-align: top;
+	}
+
+}

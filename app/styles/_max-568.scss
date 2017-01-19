@@ -1,0 +1,40 @@
+$icon-font-path: '../fonts/';
+
+@media only screen and (max-width: 568px) {
+
+ //HOMEPAGE
+
+ 	.homepage {
+
+	 	.slide-wrap {
+
+	 		.img-wrap {
+				width: 160px;
+	 		}
+
+	 		.description-block {
+	 			width: 180px;
+	 			left: 50%;
+	 			margin-left: -80px;
+	 			font-size: 12px;
+	 		}
+
+	 	}
+
+	}
+
+	//PRODUCT
+
+	.product {
+
+		.slick-prev {
+			left: -10px;
+		}
+
+		.slick-next {
+			right: -10px;
+		}
+
+	}	
+
+}

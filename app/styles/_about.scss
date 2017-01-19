@@ -1,0 +1,78 @@
+$icon-font-path: '../fonts/';
+
+$page-color: #313131;
+$border-color: #dddddd;
+
+.about {	
+
+	.top-section {		
+		float: right;
+		text-align: center;		
+
+		display: flex;
+		align-items: stretch;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.title {
+		color: #000;
+	}
+
+	.text {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 1.5em;
+		color: #828282;
+	}
+
+	.section-link {
+		font-size: 16px;
+		font-weight: 600;
+		color: #0080ff;
+		text-decoration: underline;
+		display: inline-block;
+		margin-top: 28px;
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: #0080ff;
+			text-decoration: underline;
+		}
+
+	}
+	
+
+	.bottom-section {
+		float: left;
+		text-align: left;		
+
+		display: flex;			
+		align-items: flex-start;
+		justify-content: center;
+		flex-direction: column;
+
+		.title {
+			color: #777;
+			font-weight: 400;
+			margin-bottom: 0;
+
+			&:after {
+				content: "";
+				width: 40px;
+				display: block;
+				height: 2px;
+				background: #777;
+				margin: 20px auto 20px 0;
+			}
+
+		}
+
+		.text {
+			color: #777;
+		}
+
+	}
+
+}

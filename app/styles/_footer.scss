@@ -1,0 +1,70 @@
+$icon-font-path: '../fonts/';
+
+
+
+.footer {
+	border-top: 1px solid $border-color;
+	background: #fff;		
+
+	.footer-top-block {
+		border-bottom: 1px solid $border-color;
+		height: 75px;
+		position: relative;
+	}
+
+	.logo-block {
+		float: left;
+		margin: 0 auto 0 0;
+		height: 100%;
+		padding: 20px 0;
+	}
+
+	.navigation {
+		height: 100%;
+		width: 65%;
+		float: left;
+	}
+
+	.search-block {
+		position: absolute;
+		right: 0;
+		top:50%;
+		transform: translateY(-50%);
+	}
+
+	.nav-bar {
+
+		ul {
+
+			li {
+
+				&:first-child {
+					position: static;
+				}
+
+			}
+
+		}
+
+	}
+
+	.footer-bottom-block {
+		height: 65px;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.copyright {
+		font-size: 15px;
+		font-weight: 400;
+		color: #727272;
+		text-align: center;
+		display: block
+	}
+
+}
+
+
+
