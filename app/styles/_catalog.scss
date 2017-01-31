@@ -138,14 +138,33 @@ $border-color: #dddddd;
 		.img-wrap {
 			width: 100%;
 			overflow: hidden;
-			border-radius: 3px;
+			border-radius: 10px;
 
 			img {
 				width: 100%;
+				border-radius: 10px;
 			}
 
 		}
 
 	}	
+
+	.bottom-block {		
+
+		.button-wrap {
+			text-align: center;
+		}	
+
+	}
+
+	.more-block {		
+		display: none;
+		justify-content: space-between;
+		margin-top: 44px;
+	}
+
+	.more-block.is-visible {
+		display: flex;
+	}
 
 }
