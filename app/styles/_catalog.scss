@@ -112,6 +112,19 @@ $border-color: #dddddd;
 
 			.option {
 				color: #b6b6b6;
+
+				a {
+					color: #b6b6b6;
+
+					&:hover,
+					&:focus,
+					&:active {
+						color: $page-color;
+						text-decoration: none;
+					}
+
+				}
+
 			}
 
 			.selected {
@@ -139,6 +152,7 @@ $border-color: #dddddd;
 			width: 100%;
 			overflow: hidden;
 			border-radius: 10px;
+			min-height: 287px;
 
 			img {
 				width: 100%;

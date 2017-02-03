@@ -120,4 +120,20 @@ $border-color: #dddddd;
 
 	}
 
+	.price-info {
+		margin-bottom: 10px;
+		font-size: 16px;
+		font-weight: 400;
+		color: $page-color;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		span {
+			font-weight: 700;
+		}
+
+	}
+
 }
