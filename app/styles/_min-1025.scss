@@ -87,7 +87,8 @@ $icon-font-path: '../fonts/';
 
 	//CATALOG 
 
-	.catalog {		
+	.catalog {
+
 
 		.tab-select {
 
@@ -115,6 +116,8 @@ $icon-font-path: '../fonts/';
 		}
 
 		.right-column {
+			width: calc(100% - 345px);
+
 
 			.left-filter {
 				

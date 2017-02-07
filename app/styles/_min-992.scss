@@ -59,6 +59,8 @@ $icon-font-path: '../fonts/';
 
 		.left-column {
 			position: relative;
+			width: 245px;
+			float: left;
 
 			.nice-select {
 				display: none;
@@ -188,6 +190,8 @@ $icon-font-path: '../fonts/';
 
 		.right-column {
 			margin-top: 0;
+			width: calc(100% - 270px);
+			float: right;
 
 			.right-column-header {
 				height: 45px;

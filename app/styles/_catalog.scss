@@ -160,23 +160,10 @@ $border-color: #dddddd;
 	.catalog-list{		
 	}
 
-	.catalog-item {
+	.catalog-item {	
 
-		margin: 15px auto;
-		list-style: none;
-
-		.img-wrap {
-			width: 100%;
-			overflow: hidden;
-			border-radius: 10px;
-			min-height: 287px;
-
-			img {
-				width: 100%;
-				border-radius: 10px;
-			}
-
-		}
+		//margin: 15px auto;
+		list-style: none;	
 
 	}	
 

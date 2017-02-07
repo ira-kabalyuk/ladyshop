@@ -258,6 +258,12 @@ $("#more_button").click(function( e ) {
        
     }); 
 
+    $(".selection").click(function( e ) {        
+       $(".selection").removeClass("menu-active")
+        $(this).addClass("menu-active");
+       
+    }); 
+
     $(".size-block li").click(function( e ) {        
        //$(".size-block li").removeClass("size-active")
         $(this).toggleClass("size-active");
