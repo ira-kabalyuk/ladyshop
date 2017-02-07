@@ -129,7 +129,7 @@ jQuery(document).ready(function() {
     $('.news-slider-nav').slick({
       slidesToShow: 3,
       slidesToScroll: 1,
-      asNavFor: '.slider-for',      
+      asNavFor: '.news-slider-for',      
       focusOnSelect: true,
        arrows: false,
     });

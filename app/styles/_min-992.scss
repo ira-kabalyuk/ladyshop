@@ -58,8 +58,8 @@ $icon-font-path: '../fonts/';
 		//background: #f2f9f9;		
 
 		.left-column {
-			position: relative;
-			width: 245px;
+			position: relative;			
+			width: 215px;
 			float: left;
 
 			.nice-select {
@@ -85,10 +85,10 @@ $icon-font-path: '../fonts/';
 				}		
 
 				.list {
-					width: 100%;
-					opacity: 1;
-					position: static;
-					margin-top: 0;				
+				width: 100%;
+				opacity: 1;
+				position: static;
+				margin-top: 0;				
 	    		border-radius: 0;
 	    		box-shadow: none;
 	    		overflow: visible;
@@ -189,9 +189,9 @@ $icon-font-path: '../fonts/';
 		}
 
 		.right-column {
-			margin-top: 0;
-			width: calc(100% - 270px);
+			margin-top: 0;			
 			float: right;
+			width: calc(100% - 235px);
 
 			.right-column-header {
 				height: 45px;
@@ -216,7 +216,7 @@ $icon-font-path: '../fonts/';
 				width: 41.66667%;			
 				float: left;
 				padding-left: 0;
-    		padding-right: 15px;
+    			padding-right: 15px;
 				
 				justify-content: space-between;
 				align-items: center;

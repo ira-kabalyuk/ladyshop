@@ -115,8 +115,12 @@ $icon-font-path: '../fonts/';
 
 		}
 
+		.left-column {
+			width: 245px;
+		}
+
 		.right-column {
-			width: calc(100% - 345px);
+			width: calc(100% - 345px);	
 
 
 			.left-filter {

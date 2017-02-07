@@ -466,6 +466,8 @@ $icon-font-path: '../fonts/';
 			.tab-select {
 				display: none;
 			}
+
+			
 			
 			.current {				
 				text-align: center;
@@ -486,7 +488,8 @@ $icon-font-path: '../fonts/';
 			    width: 8px; 
 			    margin-top: -2px;		    
 	        transform-origin: 44% 44%;
-	        transform: rotate(45deg);		    
+	        transform: rotate(-135deg);	
+					transition: all 0.15s ease-in-out;
   			}
 
 			}
@@ -508,6 +511,15 @@ $icon-font-path: '../fonts/';
 					z-index: 20;				
 				}
 
+				.current {
+
+						&:after {
+							transform: rotate(45deg);	
+							transition: all 0.15s ease-in-out;
+						} 
+
+					}
+
 			}
 
 			.nice-select {
@@ -522,6 +534,8 @@ $icon-font-path: '../fonts/';
 				right: 0;
 				z-index: 30;
 				display: block;
+
+
 				
 				&:after {
 					 border-bottom: none;
@@ -540,6 +554,22 @@ $icon-font-path: '../fonts/';
 						font-size: 15px;
 						color: rgba(220, 97, 125, 0.5);
 						font-weight: 600;
+
+						a {
+							color: rgba(220, 97, 125, 0.5);
+							font-weight: 600;
+							text-decoration: none;
+
+							&:hover,
+							&:focus,
+							&:active {
+								color: #dc617d;
+								font-weight: 600;
+								text-decoration: none;
+							}
+
+						}
+
 					}
 
 					.option.focus {
@@ -671,8 +701,7 @@ $icon-font-path: '../fonts/';
 				width: 220px;
 				display: inline-block;			
 				//height: 260px;
-				height: auto;
-				margin: 0 10px 20px 10px;
+				height: auto;			
 
 			.img-wrap {
 				text-align: center;	
@@ -885,6 +914,14 @@ $icon-font-path: '../fonts/';
 
 		.back-link {
 			display: none;
+		}
+
+		.news-slider-for {
+
+			.img-wrap {
+				//height: 300px;
+			}
+
 		}
 
 		.news-slider-nav {

@@ -167,31 +167,49 @@ $icon-font-path: '../fonts/';
 			.tab-select {
 				display: none;
 			}
-			
-			.current {				
+
+			.nice-select {
+
+				.current {				
 				text-align: center;
 				display: block;	
 				font-size: 15px;
 				color: #dc617d;
 				font-weight: 600;			
 
-				&:after {
-					content: '';
-			    border-top: 2px solid #dc617d;
-			    border-left: 2px solid #dc617d;
-			    border-bottom: none;
-			    border-right: none;
-			    display: inline-block;
-			    margin-left: 10px;
-			    height: 8px;
-			    width: 8px; 
-			    margin-top: -2px;		    
-	        transform-origin: 44% 44%;
-	        transform: rotate(45deg);		    
-  			}
+					&:after {
+						content: '';
+				    border-top: 2px solid #dc617d;
+				    border-left: 2px solid #dc617d;
+				    border-bottom: none;
+				    border-right: none;
+				    display: inline-block;
+				    margin-left: 10px;
+				    height: 8px;
+				    width: 8px; 
+				    margin-top: -2px;		    
+		        transform-origin: 44% 44%;
+		        transform: rotate(-135deg);	
+		        transition: all 0.15s ease-in-out;	    
+	  			}
 
-			}
+				}
 
+				&.open {
+
+					.current {
+
+						&:after {
+							transform: rotate(45deg);
+							transition: all 0.15s ease-in-out;						
+						}
+
+					}					
+					
+				}
+
+			}			
+			
 			.current-visible {
 
 				&:after {			    
@@ -240,7 +258,23 @@ $icon-font-path: '../fonts/';
 						text-align: center;
 						font-size: 15px;
 						color: rgba(220, 97, 125, 0.5);
-						font-weight: 600;
+						font-weight: 600;						
+
+						a {
+							color: rgba(220, 97, 125, 0.5);
+							font-weight: 600;
+							text-decoration: none;
+
+							&:hover,
+							&:focus,
+							&:active {
+								color: #dc617d;
+								font-weight: 600;
+								text-decoration: none;
+							}
+
+						}
+
 					}
 
 					.option.focus {
