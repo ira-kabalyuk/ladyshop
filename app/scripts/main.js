@@ -118,38 +118,22 @@ jQuery(document).ready(function() {
       
     });
 
-    $('.news-slider-for').slick({
+   $('.news-slider-for').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false,
       fade: true,
-      asNavFor: '.news-slider-nav',
-
-      responsive: [           
-            
-            {
-              breakpoint: 992,
-              settings: {
-                infinite: true,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                //asNavFor: false,
-                //dots: true,
-              }
-            }
-        ]
+      asNavFor: '.news-slider-nav'
     });
 
     $('.news-slider-nav').slick({
       slidesToShow: 3,
       slidesToScroll: 1,
-      asNavFor: '.news-slider-for',
-      dots: false,      
+      asNavFor: '.slider-for',      
       focusOnSelect: true,
-      arrows: false, 
-      vertical: false,    
+       arrows: false,
     });
-
+            
 
      if ($('html').width() > 1025) {
 

@@ -56,13 +56,14 @@ $border-color: #dddddd;
 		}
 
 	}
-
+	
 	.news-slider-nav {
+		width: 450px;
+		height: 100px;
 		margin-bottom: 0;
 
-		.slider-item-perv {
-			width: 140px !important;
-			max-height: 100px;
+		.slider-item-perv {			
+			max-height: 100%;
 			margin-right: 15px;
 			border-radius: 5px;
 		}

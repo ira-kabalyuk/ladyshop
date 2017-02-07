@@ -46,6 +46,11 @@ $icon-font-path: '../fonts/';
 			display: inline-block;
 			vertical-align: top;
 		}
+
+		.mobile-menu-back {
+			display: block;
+		}
+
 	}
 
 	.header-top-block {
@@ -129,6 +134,10 @@ $icon-font-path: '../fonts/';
 		}
 
 	}	
+
+	.mobile-menu-back {
+		display: none;
+	}
 
 		nav ul {
 			height: 0;			
@@ -839,9 +848,8 @@ $icon-font-path: '../fonts/';
 
 		.news-slider-nav {
 
-			.slider-item-perv {
-				width: 60px !important;
-				max-height: 60px;
+			.slider-item-perv {				
+				//max-height: 43px;
 			}
 
 		}		
