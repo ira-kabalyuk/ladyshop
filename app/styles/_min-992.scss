@@ -7,7 +7,8 @@ $icon-font-path: '../fonts/';
 	}
 
 	.page {
-		padding: 3.6rem 0;
+		//padding: 3.6rem 0;
+
 	}
 
 	//HOMEPAGE
@@ -55,7 +56,8 @@ $icon-font-path: '../fonts/';
 
 	.catalog {
 		background: url(../images/catalog-bg.png) repeat;
-		//background: #f2f9f9;		
+		//background: #f2f9f9;
+		padding-top: 135px;		
 
 		.left-column {
 			position: relative;			
@@ -300,6 +302,8 @@ $icon-font-path: '../fonts/';
 	//PRODUCT
 
 	.product {
+		padding-top: 135px;
+		padding-bottom: 100px;	
 
 		.product-left-column {
 			margin-left: -15px;
@@ -348,14 +352,8 @@ $icon-font-path: '../fonts/';
 
 		.img-wrap {
 			width: 100%;
-			height: auto;
+			height: 480px;
 			overflow: hidden;
-
-
-			img {
-				width: 100%;
-			}
-
 		}
 
 	}
@@ -437,7 +435,9 @@ $icon-font-path: '../fonts/';
 
 //NEWS
 
-	.news {		
+	.news {	
+		padding-top: 135px;
+		padding-bottom: 100px;	
 
 		.right-column {
 			float: right;
@@ -506,6 +506,7 @@ $icon-font-path: '../fonts/';
 	.contacts {
 		background: url(../images/contacts-bg.jpg) no-repeat;
 		background-size: cover;
+		padding-top: 135px;	
 
 		.left-column {
 			width: 300px;

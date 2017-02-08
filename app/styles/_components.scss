@@ -3,6 +3,7 @@ $icon-font-path: '../fonts/';
 html {
 //overflow-y: scroll;
   overflow-x: hidden;
+  height: 100%;
 }
 
 $page-color: #313131;
@@ -14,7 +15,12 @@ body {
 	color: $page-color;
 	font-weight: 400;
 	background: #fff;
-	padding-right: 0 !important;
+	//padding-right: 0 !important;
+	height: 100%;
+}
+
+main {
+	min-height: 100%;
 }
 
 .mask {
@@ -38,10 +44,46 @@ body {
 	transition: 0.6s;
 }
 
+.img-wrap {
+	
+	img {
+		 width: 100%;
+	    height: 100%;
+	    -o-object-fit: cover;
+	    object-fit: cover;
+	}
+}
+
+.h-footer {
+	height: 140px;
+	clear: both;
+}
+
+.h-header {
+	height: 95px;
+	clear: both;
+}
+
 .title {
 	font-size: 24px;
 	font-weight: 100;
 	margin-bottom: 20px;
+}
+
+.nice-select {
+	
+	.list {
+		display: none;
+	}
+
+	&.open {
+
+		.list {
+			display: block;
+		}
+
+	}
+
 }	
 
 .warning-title {
@@ -69,7 +111,8 @@ body {
 		vertical-align: top;
 		width: 230px;
 		height: 45px;
-		padding: 13px 0;
+		line-height: 45px;
+		vertical-align: middle;
 	}
 
 	.icon-main-button {
@@ -250,7 +293,8 @@ body {
 	text-align: center;
 	display: inline-block;
 	text-decoration: none;
-	padding: 9px 0;
+	line-height: 37px;
+	vertical-align: middle;
 
 	&:hover,
 	&:focus,

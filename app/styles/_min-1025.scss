@@ -5,12 +5,17 @@ $icon-font-path: '../fonts/';
 	.page {
 		margin-top: 0;
 		margin-bottom: 0;
+
+		padding-top: 135px;
+		padding-bottom: 170px;
+	
 	}
 
 	//HEADER
 
 	.header {
-		position: static;
+		//position: static;
+		position: relative;
 		
 	}
 
@@ -46,15 +51,22 @@ $icon-font-path: '../fonts/';
 	.footer {
 		position: static;
 
+
 		.footer-top-block {
 			display: block;
 		}
 
 	} 
 
+	.footer.page-footer {		
+		height: 140px;
+		margin-top: -140px;
+	}
+
 	//ABOUT
 
 	.about {
+		
 
 		.pagewrap {			
 			height: calc(100vh - 95px);

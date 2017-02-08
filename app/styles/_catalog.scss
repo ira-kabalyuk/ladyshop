@@ -118,7 +118,9 @@ $border-color: #dddddd;
 
 			.list {
 				width: 100%;
-				border-radius: 3px;				
+				border-radius: 3px;	
+				height: 150px;
+				overflow-y: scroll;		
 
 				li {
 					text-align: center;
