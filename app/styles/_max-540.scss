@@ -2,6 +2,16 @@ $icon-font-path: '../fonts/';
 
 @media only screen and (max-width: 540px) {
 
+	.homepage {
+
+		.main-slider-block {
+			height: calc(100vh - 60px - 40px);
+			display: flex;
+			flex-direction: column;
+			justify-content:center;
+		}
+	}
+
 	.news-page {
 
 		.news-slider-nav {
