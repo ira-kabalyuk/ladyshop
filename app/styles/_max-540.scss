@@ -2,6 +2,13 @@ $icon-font-path: '../fonts/';
 
 @media only screen and (max-width: 540px) {
 
+	.header {
+
+		nav ul {
+			overflow: hidden;
+		}
+	}
+
 	.homepage {
 
 		.main-slider-block {

@@ -2,6 +2,10 @@ $icon-font-path: '../fonts/';
 
 @media only screen and (max-width: 767px) {	
 
+	.device-iphone {
+		padding-bottom: 44px;
+	}
+
 	.page {
 		//margin-top: 60px;
 		padding-top: 60px;
@@ -21,7 +25,7 @@ $icon-font-path: '../fonts/';
   .header {
 		height: 60px;
 		padding: 20px 15px;
-		position: absolute;
+		position: fixed;
 		top: 0;
 		left: 0;
 	}
@@ -141,12 +145,8 @@ $icon-font-path: '../fonts/';
 	}
 
 		nav ul {
-			height: 0;			
-		}
-		
-		/* mobile nav  */
-
-		.showing {
+			height: 0;
+			transition: height 0.4s;
 			background: #fff;
 			display: flex;
 			align-items: flex-start;
@@ -155,15 +155,20 @@ $icon-font-path: '../fonts/';
 			font-size: 18px;
 			position: absolute;
 			top: 37px;
-			left: 0;
-			height: calc(100vh - 60px);			
+			left: 0;						
 			//height: 100vh;
-			width: 100%;
-			transition: height 0.4s;
+			width: 100%;			
 			padding: 0 15px;
 			overflow-y: scroll;
 			 -webkit-overflow-scrolling: touch;
 			z-index: 1000;
+
+		}
+		
+		/* mobile nav  */
+
+		.showing {
+			height: calc(100vh - 60px);
 		}
 
 		/* end */
@@ -244,14 +249,9 @@ $icon-font-path: '../fonts/';
 
 	.modal-content {		
 		position: relative;
-	}
+	}	
 
-	.modal-body {
-		max-height: calc(100vh - 60px - 50px);
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-    box-sizing:border-box;
-	}
+	
 
 	.modal-footer {
 		position: absolute;
@@ -261,6 +261,22 @@ $icon-font-path: '../fonts/';
 	}
 
 	.modal {
+
+		.modal-header {
+			padding: 0 15px 0 15px;
+			height: 30px;
+
+			p {
+				line-height: 30px;
+			}
+		}
+
+		.modal-body {
+		height: calc(100vh - 30px - 60px - 50px);
+	    overflow-y: scroll;
+	    -webkit-overflow-scrolling: touch;
+	    box-sizing:border-box;
+		}
 
 
 		h3 {
@@ -680,7 +696,7 @@ $icon-font-path: '../fonts/';
 			}
 
 			.right-filter {				
-				margin-top: 40px;
+				margin-top: 10px;
 				float: none;
 				padding-left: 0;
 				padding-right: 0;	
@@ -748,16 +764,7 @@ $icon-font-path: '../fonts/';
 				width: 100%;
 				height: 271px;
 				overflow: hidden;
-				border-radius: 10px;		
-
-				img {
-					width: 100%;
-			    height: 100%;
-			    width: auto;
-			    height: auto;
-					  -o-object-fit: cover;
-    				object-fit: cover;
-				}
+				border-radius: 10px;			
 
 			}
 
@@ -1041,7 +1048,7 @@ $icon-font-path: '../fonts/';
 
 	.shop {
 		padding-top: 90px;
-    padding-bottom: 70px;
+    	padding-bottom: 70px;
 
 		.title {
 			display: none;

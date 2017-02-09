@@ -15,7 +15,7 @@ $icon-font-path: '../fonts/';
 
 	.header {
 		//position: static;
-		position: relative;
+		//position: relative;
 		
 	}
 
@@ -71,7 +71,7 @@ $icon-font-path: '../fonts/';
 		.pagewrap {			
 			height: calc(100vh - 95px);
 			background: url(../images/about-bg-1.png) no-repeat;
-			background-position: 0 0;
+			background-position: -20% 0;
 			background-size: contain;
 		}
 
@@ -85,7 +85,8 @@ $icon-font-path: '../fonts/';
 		}
 
 		.bg-section {	
-			background-image: url(../images/about-bg-2.png);
+			//background-image: url(../images/about-bg-2.png);
+			background-image: none;
 			background-color: #f2f9f9;
 			background-position: 100% 50%;			
 			height: calc(100vh - 75px - 65px);

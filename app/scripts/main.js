@@ -268,7 +268,11 @@ $("#more_button").click(function( e ) {
        //$(".size-block li").removeClass("size-active")
         $(this).toggleClass("size-active");
        
-    });     
+    });
+
+    if(navigator.userAgent.match(/iPhone/i)) {
+    $('body').addClass('device-iphone');
+  }     
 
 });
 
