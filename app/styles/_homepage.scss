@@ -17,11 +17,20 @@ $border-color: #dddddd;
 		height: 100%;
 		display: flex;
 		align-items: center;
+		position: relative;
+
+		.img-wrap {
+			position: absolute;			
+			height: 100%;
+			width: 50%;
+		}
 
 	}
 
 	.content-wrap {
 		text-align: left;
+		position: relative;
+		z-index: 10;
 	}
 
 	.title {
@@ -31,27 +40,55 @@ $border-color: #dddddd;
 	}		
 
 	.content-block-1 {
-		background: url(../images/block-1-bg.png) 0 0 no-repeat;
-		background-size: contain;
+		//background: url(../images/block-1-bg.png) 0 0 no-repeat;
+		//background-size: contain;
 		justify-content: flex-end;
+
+		.img-wrap {
+			position: absolute;
+			left: 0;
+			top: 0;			
+		}
+
 	}
 
 	.content-block-2 {
-		background: url(../images/block-2-bg.png) 100% 0 no-repeat;
-		background-size: contain;
+		//background: url(../images/block-2-bg.png) 100% 0 no-repeat;
+		//background-size: contain;
 		justify-content: flex-start;
+
+		.img-wrap {
+			position: absolute;
+			right: 0;
+			top: 0;			
+		}
+
 	}	
 
 	.content-block-3 {
-		background: url(../images/block-3-bg.png) 0 0 no-repeat;
-		background-size: contain;
+		//background: url(../images/block-3-bg.png) 0 0 no-repeat;
+		//background-size: contain;
 		justify-content: flex-end;
+
+		.img-wrap {
+			position: absolute;
+			left: 0;
+			top: 0;			
+		}
+
 	}
 
 	.content-block-4 {
-		background: url(../images/block-4-bg.png) 100% 0 no-repeat;
-		background-size: contain;
+		//background: url(../images/block-4-bg.png) 100% 0 no-repeat;
+		//background-size: contain;
 		justify-content: flex-start;
+
+		.img-wrap {
+			position: absolute;
+			right: 0;
+			top: 0;			
+		}
+
 	}	
 
 	//slider-section

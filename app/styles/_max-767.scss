@@ -335,27 +335,59 @@ $icon-font-path: '../fonts/';
 		}
 
 		.content-block-1 {
-		background: url(../images/block-1-bg.png) 100% 0 no-repeat;
-		background-size: contain;
-		justify-content: flex-start;		
+		//background: url(../images/block-1-bg.png) 100% 0 no-repeat;
+		//background-size: contain;
+		justify-content: flex-start;
+
+		.img-wrap {
+			position: absolute;
+			left: auto;
+			right: 0;
+			top: 0;			
+		}
+
 	}
 
 	.content-block-2 {
-		background: url(../images/block-2-bg.png) 100% 0 no-repeat;
-		background-size: contain;
+		//background: url(../images/block-2-bg.png) 100% 0 no-repeat;
+		//background-size: contain;
 		justify-content: flex-start;
+
+			.img-wrap {
+			position: absolute;
+			left: auto;
+			right: 0;
+			top: 0;			
+		}
+
 	}	
 
 	.content-block-3 {
-		background: url(../images/block-3-bg.png) 100% 0 no-repeat;
-		background-size: contain;
+		//background: url(../images/block-3-bg.png) 100% 0 no-repeat;
+		//background-size: contain;
 		justify-content: flex-start;
+
+			.img-wrap {
+			position: absolute;
+			left: auto;
+			right: 0;
+			top: 0;			
+		}
+
 	}
 
 	.content-block-4 {
-		background: url(../images/block-4-bg.png) 100% 0 no-repeat;
-		background-size: contain;
+		//background: url(../images/block-4-bg.png) 100% 0 no-repeat;
+		//background-size: contain;
 		justify-content: flex-start;
+
+			.img-wrap {
+			position: absolute;
+			left: auto;
+			right: 0;
+			top: 0;			
+		}
+
 	}
 
 		.slide-wrap {
@@ -693,7 +725,8 @@ $icon-font-path: '../fonts/';
 
 		.catalog-list {
 			text-align: center;
-
+			margin-left: 0;
+			margin-right: 0;
 			
 			&:after {
 				content: "";

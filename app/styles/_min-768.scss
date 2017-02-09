@@ -391,7 +391,8 @@ $icon-font-path: '../fonts/';
 		}
 
 		.catalog-list {
-			text-align: justify;
+			text-align: left;
+
 			
 			&:after {
 				content: "";
@@ -399,11 +400,15 @@ $icon-font-path: '../fonts/';
 				width: 100%;
 			}
 
-		}	
+		}
+
+	
 
 		.catalog-item {
-			//width: calc(33.333% - 30px);
-			width: 220px;
+			width: calc(33.333% - 24px);
+			//width: 33.333%;
+			//width: 220px;
+			text-align: center;
 			display: inline-block;
 			//padding: 0 15px;
 			//height: 260px;
