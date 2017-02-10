@@ -28,6 +28,10 @@ $icon-font-path: '../fonts/';
 		position: fixed;
 		top: 0;
 		left: 0;
+
+		.mobile-menu-back {
+			display: block;
+		}
 	}
 
 	.pages-header {
@@ -52,9 +56,7 @@ $icon-font-path: '../fonts/';
 			vertical-align: top;
 		}
 
-		.mobile-menu-back {
-			display: block;
-		}
+		
 
 	}
 
@@ -71,12 +73,7 @@ $icon-font-path: '../fonts/';
 	.logo-block {
 		width: 120px;
 		margin: 0 auto;
-	}
-
-	.cart-title {
-		height: 100%;
-		width: 22px;
-	}
+	}	
 
 	.icon-mobile-cart {
 		display: inline-block;
@@ -95,9 +92,33 @@ $icon-font-path: '../fonts/';
 	}
 
 	.cart-title {
+		height: 100%;
+		//width: 22px;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: none;
+		}
 
 		span {
 			display: none;
+		}
+
+		.mobile-num {
+			display: inline-block;
+			margin-right: 8px;
+			text-decoration: none;
+			color: #fff;
+			font-weight: 600;
+
+			background: #db385e;
+			border-radius: 50%;
+			//padding: 2px 5px;
+			width: 22px; 
+			height: 22px;
+			line-height: 22px;
+			vertical-align: middle;
+			text-align: center;
 		}
 		
 	}
@@ -263,11 +284,12 @@ $icon-font-path: '../fonts/';
 	.modal {
 
 		.modal-header {
-			padding: 0 15px 0 15px;
+			padding: 0;
 			height: 30px;
+			display: none;
 
 			p {
-				line-height: 30px;
+				//line-height: 30px;
 			}
 		}
 
@@ -276,6 +298,15 @@ $icon-font-path: '../fonts/';
 	    overflow-y: scroll;
 	    -webkit-overflow-scrolling: touch;
 	    box-sizing:border-box;
+
+	    	.modal-header {
+	    		display: block;
+	    		margin-bottom: 10px;
+
+	    		p {
+	    			line-height: normal;
+	    		}	    		
+	    	}
 		}
 
 
@@ -306,6 +337,8 @@ $icon-font-path: '../fonts/';
 			bottom: 15px;
 			left: 73px;
 		}
+
+		
 
 	}
 

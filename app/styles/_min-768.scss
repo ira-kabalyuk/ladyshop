@@ -2,6 +2,8 @@ $icon-font-path: '../fonts/';
 
 @media only screen and (min-width: 768px) {
 
+	
+
 	.page {
 		//margin-top: 95px;
 		//margin-bottom: 65px;
@@ -57,15 +59,43 @@ $icon-font-path: '../fonts/';
 
 }
 
+	.cart-title {
+
+		.mobile-num {
+			display: none;
+		}
+	}
+
 	//MODAL
 
+	.modal-open {
+		//margin-right: -17px;
+		//padding-right: 17px;
+	}
+
 	.modal {
+		overflow-y: auto; 
 
 		h3 {
 			display: none;
 		}
 
 	}
+
+	.modal-body {
+
+		.modal-header {
+			display: none;
+	    		
+    		p {
+    			
+    		}
+	    }
+	}
+
+
+
+	
 
 	//HOMEPAGE
 
