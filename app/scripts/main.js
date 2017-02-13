@@ -169,7 +169,7 @@ jQuery(document).ready(function() {
 
    $('.mobile-menu').click( function() {
     $('nav ul').toggleClass("showing");
-
+    $('body').toggleClass('menu-open');
   });
 
    $(".mobile-menu").click(function( e ) {
@@ -178,6 +178,8 @@ jQuery(document).ready(function() {
     }); 
 
   //nav end 
+
+  
 
   //popup  cart button
 

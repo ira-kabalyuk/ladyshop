@@ -352,7 +352,7 @@ $icon-font-path: '../fonts/';
 
 			.left-filter {
 				padding-left: 0;
-    		padding-right: 0;
+    			padding-right: 0;
 				width: 100%;
 				text-align: center;
 
@@ -404,8 +404,9 @@ $icon-font-path: '../fonts/';
 						z-index: 25;
 						padding-left: 0;
 						padding-right: 0;
-						border-left: 1px solid #fff;
-						border-right: 1px solid #fff;
+						border-left: 1px solid $border-color;
+						border-left: 1px solid $border-color;
+						border-bottom: 1px solid $border-color;
 						box-sizing: content-box;
 						left: -1px;
 					}

@@ -1,9 +1,28 @@
 $icon-font-path: '../fonts/';
 
-@media only screen and (max-width: 767px) {	
+@media only screen and (max-width: 767px) {
+
+
+
+	.modal-open {
+
+		 //.header { padding-right: 17px}
+
+		 .modal { 
+			padding-right: 0 !important;
+		}
+
+	}
+
+
 
 	.device-iphone {
 		padding-bottom: 44px;
+	}
+
+	.menu-open {
+		overflow: hidden;
+		height: 100%;
 	}
 
 	.page {
@@ -180,7 +199,8 @@ $icon-font-path: '../fonts/';
 			//height: 100vh;
 			width: 100%;			
 			padding: 0 15px;
-			overflow-y: scroll;
+			//overflow-y: scroll;
+			overflow: auto;
 			 -webkit-overflow-scrolling: touch;
 			z-index: 1000;
 
@@ -266,6 +286,7 @@ $icon-font-path: '../fonts/';
 	.modal-dialog {
 		margin: 0;
 		height: 100vh;
+		width: 100%;
 	}
 
 	.modal-content {		
@@ -294,7 +315,7 @@ $icon-font-path: '../fonts/';
 		}
 
 		.modal-body {
-		height: calc(100vh - 30px - 60px - 50px);
+		height: calc(100vh - 60px - 50px);
 	    overflow-y: scroll;
 	    -webkit-overflow-scrolling: touch;
 	    box-sizing:border-box;
@@ -346,7 +367,7 @@ $icon-font-path: '../fonts/';
 
 	.homepage	{
 		top: 60px;
-		padding-top: 60px;
+		//padding-top: 60px;
 		
 
 		.content-wrap {
@@ -448,6 +469,10 @@ $icon-font-path: '../fonts/';
 		}
 
 		.bottom-block {
+			display: none;
+		}
+
+		.bg-section {
 			display: none;
 		}		
 
@@ -632,7 +657,7 @@ $icon-font-path: '../fonts/';
 				.list {					
 					width: 100%;
 					margin-top: 0;
-					border-radius: 0;				
+					border-radius: 0;								
 
 					li {
 						padding-left: 0;
@@ -758,8 +783,12 @@ $icon-font-path: '../fonts/';
 						z-index: 25;
 						padding-left: 0;
 						padding-right: 0;
-						border-left: 1px solid #fff;
-						border-right: 1px solid #fff;
+						border-radius: 0;
+						border-right: 1px solid $border-color;
+						border-left: 1px solid $border-color;
+						border-bottom: 1px solid $border-color;	
+						//border-left: 1px solid #fff;
+						//border-right: 1px solid #fff;
 						box-sizing: content-box;
 						left: -1px;
 					}
