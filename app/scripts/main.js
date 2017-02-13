@@ -272,7 +272,33 @@ $("#more_button").click(function( e ) {
 
     if(navigator.userAgent.match(/iPhone/i)) {
     $('body').addClass('device-iphone');
-  }     
+  } 
+
+   //product-filter
+
+    $('.right-btn').click(function() {       
+      var count = parseInt($('.counter').text()) +1;      
+      $('.counter').text(count);      
+    });
+  
+    $('.left-btn').click(function() {      
+      var count = parseInt($('.counter').text()) -1;
+      if(count < 0) {
+        return;
+        }
+      $('.counter').text(count);        
+    });
+
+  //product tab    
+
+  /* $('#myModal').on('shown.bs.modal', function (e) {
+    $("html").addClass("document-visible");
+  })
+
+   $('#myModal').on('hidden.bs.modal', function (e) {
+    $("html").removeClass("document-visible");
+  })*/
+    
 
 });
 

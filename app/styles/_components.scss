@@ -9,6 +9,15 @@ html {
 $page-color: #313131;
 $border-color: #dddddd;
 
+.document-visible {
+	padding-right: 17px
+}
+
+.modal-open {
+	 padding-right: 0 !important;
+	 //overflow-y: scroll
+}
+
 
 body {
 	font-family: 'GothamPro', sans-serif;
@@ -45,6 +54,7 @@ main {
 }
 
 .img-wrap {
+	overflow: hidden;
 	
 	img {
 		 width: 100%;
@@ -154,7 +164,7 @@ main {
 
 			a {
 				display: block;
-				height: 40px;
+				height: 37px;
 				overflow: hidden;
 				}
 
@@ -310,6 +320,65 @@ main {
 	}
 
 }
+
+	.counter-list {		
+
+		.counter-item {
+		display: inline-block;
+		margin-right: 30px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+	}
+
+	.counter-wrap {
+		width: 130px;
+		border: 1px solid $border-color;
+		height: 30px;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 13px;		
+
+		a {
+			display: inline-block;
+			cursor: pointer;
+			width: 40px;
+			height: 100%;
+			color: #426995;
+			padding: 7px 0;
+			font-weight: 700;
+
+			&:hover {
+				text-decoration: none;
+				color: #426995;
+			}
+
+		}
+
+	}
+
+	.left-btn {
+		border-right: 1px solid $border-color;
+		float: left;
+	}
+	.right-btn {
+		border-left: 1px solid $border-color;
+		float: right;
+	}
+
+	.counter {
+		display: inline-block;
+		height: 100%;
+		color: #426995;
+		padding: 7px 0;
+		font-weight: 700;
+	}
+}
+
+	
+
 
 
 

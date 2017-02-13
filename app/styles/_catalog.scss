@@ -178,6 +178,12 @@ $border-color: #dddddd;
 
 	}
 
+	.price-wrap {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
 	.more-block {		
 		display: none;
 		justify-content: space-between;
