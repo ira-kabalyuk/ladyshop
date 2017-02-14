@@ -73,5 +73,53 @@ $icon-font-path: '../fonts/';
 	 	}	 	
 
 	}
+
+	.about {
+
+		.title {
+			margin-bottom: 20px;
+
+			&:after {
+				content: "";
+				margin: 15px auto 15px 0;
+			}
+
+		}
+
+		.text {
+			font-size: 14px;
+			height: 108px;
+			overflow: hidden;
+			position: relative;
+
+			/*&:after {
+				content: "...";
+				display: block;
+				color: #828282;
+				font-size: 14px;
+				width: 23px;
+				height: 24px;
+				background: #fff;
+
+				position: absolute;
+				right: 0;
+				bottom: 0;
+			}*/
+			
+		}
+
+		.section-link {
+			font-size: 14px;
+			margin-top: 15px;
+		}
+
+		.bottom-section {
+
+			.text {
+				height: 147px;
+				overflow: hidden;
+			}
+		}
+	}
   
 }

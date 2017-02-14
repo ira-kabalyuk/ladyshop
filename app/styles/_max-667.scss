@@ -9,7 +9,9 @@ $icon-font-path: '../fonts/';
 	 		.content-wrap {
 
 	 			.title {
-				font-size: 14px;
+		 			display: inline-block;
+		 			margin-right: 5px;
+					font-size: 14px;
 	 			}
 
 	 		}

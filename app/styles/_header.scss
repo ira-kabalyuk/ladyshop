@@ -82,6 +82,8 @@ $border-color: #dddddd;
 	&:focus,
 	&:active {
 		color: #666666;
+		outline: none;
+
 	}	
 
 }
@@ -118,6 +120,13 @@ $border-color: #dddddd;
 	a {
 		text-decoration: none;
 		color:inherit;
+
+		&:hover,
+		&:focus,
+		&:active {
+			outline: none;
+
+		}
 	}
 
 }

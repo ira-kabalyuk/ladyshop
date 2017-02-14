@@ -168,6 +168,11 @@ jQuery(document).ready(function() {
    //nav
 
    $('.mobile-menu').click( function() {
+    /*if($('body').hasClass('menu-open')) {
+      initFullpagePlugin()
+    } else {
+      destroyFullpagePlugin();
+    }*/
     $('nav ul').toggleClass("showing");
     $('body').toggleClass('menu-open');
   });
@@ -184,24 +189,27 @@ jQuery(document).ready(function() {
   //popup  cart button
 
    $(".delete-link").click(function( e ) {       
-       $(this).parents(".modal-cart-block").addClass("is-close");
-    });
+       $(this).parents( ".modal-cart-block" ).fadeOut( "slow", function() {
+    // Анимация завершена.
+      });
+    });   
 
   //popup end 
 
-  if ($('html').width() < 1025) {
+  initFullpagePlugin();
 
-    $(document).ready(function() {
-    $('#fullpage').fullpage({ 
-        //Scrolling
-        
-        scrollHorizontally: false, 
-       
-      });   
+  function initFullpagePlugin() {
+    if ($('html').width() < 1025) {
+      $('#fullpage').fullpage({ 
+          //Scrolling
+          scrollHorizontally: false, 
+        });  
+    }
+  }
 
-    });
-     
-}
+  function destroyFullpagePlugin() {
+    $.fn.fullpage.destroy('all');
+  }
 
 $("#more_button").click(function( e ) {
       e.stopPropagation();

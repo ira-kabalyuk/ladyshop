@@ -89,6 +89,13 @@ $border-color: #dddddd;
 
 	}
 
+	.modal {
+
+		.modal-header {
+			padding: 0;
+		}
+	}
+
 	.cart.modal {
 		display: block;
 		position: static;

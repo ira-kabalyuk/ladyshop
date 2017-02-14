@@ -53,6 +53,20 @@ $border-color: #dddddd;
 		font-size: 20px;
 		font-weight: 600;
 		margin: 20px auto 17px 0;
+
+		a {
+			font-size: 20px;
+			font-weight: 600;
+			color: $page-color;
+			text-decoration: none;
+
+			&:hover,
+			&:focus,
+			&:active {
+				text-decoration: none;
+				color: $page-color;
+			}
+		}
 	}
 
 	.data {
