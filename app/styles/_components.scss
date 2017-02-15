@@ -53,6 +53,25 @@ main {
 	transition: 0.6s;
 }
 
+.close {
+	width: 22px;
+	height: 22px;
+}
+
+.icon-menu-close {
+	background: url(../images/menu-close.svg) no-repeat;
+	display: inline-block;	
+	width: 22px;
+	height: 22px;	
+}
+
+.icon-mobile-menu {
+	background: url(../images/mobile-menu.svg) no-repeat;
+	display: inline-block;	
+	width: 22px;
+	height: 14px;	
+} 
+
 .img-wrap {
 	overflow: hidden;
 	

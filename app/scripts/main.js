@@ -168,11 +168,12 @@ jQuery(document).ready(function() {
    //nav
 
    $('.mobile-menu').click( function() {
-    /*if($('body').hasClass('menu-open')) {
+    if($('body').hasClass('menu-open')) {
       initFullpagePlugin()
     } else {
       destroyFullpagePlugin();
-    }*/
+    }
+
     $('nav ul').toggleClass("showing");
     $('body').toggleClass('menu-open');
   });
@@ -208,7 +209,9 @@ jQuery(document).ready(function() {
   }
 
   function destroyFullpagePlugin() {
-    $.fn.fullpage.destroy('all');
+    if($.fn.fullpage && $.fn.fullpage.destroy) { 
+      $.fn.fullpage.destroy('all');
+    }
   }
 
 $("#more_button").click(function( e ) {
@@ -308,6 +311,16 @@ $("#more_button").click(function( e ) {
    $('#myModal').on('hidden.bs.modal', function (e) {
     $("html").removeClass("document-visible");
   })*/
+
+//эффекты появления в каталоге
+
+  function onImgload(){
+    $(this).parents('.catalog-main-list .catalog-item').fadeIn(1000);
+  }
+
+  $(".catalog-main-list .catalog-item img").load(onImgload).each(function() {
+    if(this.complete) $(this).load();
+  });
     
 
 });

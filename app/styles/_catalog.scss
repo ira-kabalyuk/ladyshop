@@ -159,15 +159,23 @@ $border-color: #dddddd;
 		margin-top: 15px;
 	}
 
+	.catalog-main-list {
+
+		.catalog-item {
+			display: none;
+		}
+	}
+
 	.catalog-list{	
 		margin-left: -10px;
-		margin-right: -10px;	
+		margin-right: -10px;
 	}
 
 	.catalog-item {	
 		margin: 0 10px 20px 10px;
 		list-style: none;	
-
+		display: none;
+		float: left;
 	}	
 
 	.bottom-block {		

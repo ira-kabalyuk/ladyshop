@@ -49,10 +49,11 @@ $icon-font-path: '../fonts/';
 		display: none;
 	}
 
-	.icon-mobile-menu {		
-	display: none;	
+	.mobile-menu {
+		display: none;
+	}
+
 	
-}
 
 .table-header {
 	height: auto;
@@ -437,11 +438,11 @@ $icon-font-path: '../fonts/';
 	
 
 		.catalog-item {
-			width: calc(33.333% - 24px);
+			width: calc(33.333% - 20px);
 			//width: 33.333%;
 			//width: 220px;
 			text-align: center;
-			display: inline-block;
+			//display: inline-block;
 			//padding: 0 15px;
 			//height: 260px;
 			margin-bottom: 20px;
@@ -487,7 +488,7 @@ $icon-font-path: '../fonts/';
 
 			.img-wrap {
 				width: 292px;
-				height: 266px;
+				height: 390px;
 				overflow: hidden;	
 				margin: 0 auto;		
 

@@ -51,14 +51,19 @@ $border-color: #dddddd;
 
 .logo-block {
 	width: 183px;
+	height: 30px;
 	margin: 0 auto;
 
 	.logo {
 		display: inline-block;
+		width: 100%;
+		height: 100%;
 	}
 
 	img {
 		width: 100%;
+		object-fit: cover;
+		object-position: center;
 	}
 
 }

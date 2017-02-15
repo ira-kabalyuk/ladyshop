@@ -24,6 +24,10 @@ $border-color: #dddddd;
 
 	.modal-dialog {
 		background: #fff;
+
+		.close {
+			opacity: 1;
+		}
 	}
 
 	.modal-content {
