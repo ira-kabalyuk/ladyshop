@@ -172,9 +172,9 @@ $border-color: #dddddd;
 	}
 
 	.catalog-item {	
+		width: calc(33.333% - 20px);
 		margin: 0 10px 20px 10px;
-		list-style: none;	
-		display: none;
+		list-style: none;		
 		float: left;
 	}	
 

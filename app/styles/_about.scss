@@ -46,7 +46,10 @@ $border-color: #dddddd;
 
 	}
 	
-
+	.fp-tableCell {
+		overflow: auto;
+	}
+	
 	.bottom-section {
 		float: left;
 		text-align: left;		
@@ -57,7 +60,6 @@ $border-color: #dddddd;
 		flex-direction: column;
 
 		padding: 15px;
-		overflow: hidden;
 
 		.title {
 			color: #777;

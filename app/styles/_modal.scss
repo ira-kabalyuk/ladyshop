@@ -50,7 +50,8 @@ $border-color: #dddddd;
 	.modal-body {		
 		padding: 15px 35px;
 		height: calc(479px - 60px - 50px);
-		overflow-y: scroll; 
+		overflow-y: auto; 
+		-webkit-overflow-scrolling: touch;
 	}
 
 	.modal-cart-block {

@@ -180,8 +180,8 @@ $icon-font-path: '../fonts/';
 		}
 
 		.content {
-			margin-top: 95px;
-			margin-bottom: 65px;
+			//margin-top: 95px;
+			//margin-bottom: 65px;
 		}
 
 		.bottom-section {		
@@ -438,7 +438,7 @@ $icon-font-path: '../fonts/';
 	
 
 		.catalog-item {
-			width: calc(33.333% - 20px);
+			//width: calc(33.333% - 20px);
 			//width: 33.333%;
 			//width: 220px;
 			text-align: center;
@@ -583,47 +583,7 @@ $icon-font-path: '../fonts/';
 				margin-bottom: 35px;				
 			}
 
-		}
-
-		.paging {
-			display: flex;
-			margin-left: 15px;
-			margin-bottom: 25px;
-
-			li {
-				border: 1px solid #979797;
-				border-radius: 3px;
-				padding: 10px 0;
-				width: 40px;
-				height: 40px;
-				text-align: center;
-				cursor: pointer;
-				list-style: none;
-				margin-right: 10px;
-
-				&:last-child {
-					margin-right: 0;
-				}
-
-				&:hover {
-					border: 1px solid #04aaa8;
-
-					a {
-						color: #04aaa8;
-					}
-
-				}
-
-				a {
-					font-size: 16px;
-					text-decoration: none;
-					font-weight: 600;
-					color: #979797;
-				}
-
-			}
-
-		}	 
+		}		
 		
 	}
 

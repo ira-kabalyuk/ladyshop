@@ -96,10 +96,13 @@ $icon-font-path: '../fonts/';
 			background-color: #f2f9f9;
 			background-position: 100% 50%;			
 			height: calc(100vh - 75px - 65px);
+			height: auto;
 		}
 
 		.bottom-section {		
 			height: calc(100vh - 75px - 65px);
+			//height: 100%;
+			padding: 30px 15px;
 		}
 
 	}	

@@ -86,10 +86,13 @@ $icon-font-path: '../fonts/';
 
 		}
 
+		.top-section {
+			padding: 15px 50px 15px 15px;
+		}
+
 		.text {
 			font-size: 14px;
-			height: 108px;
-			overflow: hidden;
+			//height: 108px;			
 			position: relative;
 
 			/*&:after {
@@ -114,10 +117,12 @@ $icon-font-path: '../fonts/';
 		}
 
 		.bottom-section {
+			padding-right: 0;
 
 			.text {
-				height: 147px;
-				overflow: hidden;
+				//height: 147px;
+				padding-right: 15px;			
+
 			}
 		}
 	}

@@ -12,6 +12,7 @@ $icon-font-path: '../fonts/';
 		 			display: inline-block;
 		 			margin-right: 5px;
 					font-size: 14px;
+					width: 170px;
 	 			}
 
 	 		}
@@ -40,6 +41,20 @@ $icon-font-path: '../fonts/';
 		 	}
 
 	 }
+
+	 //ABOUT
+
+	.about {
+
+		.top-section {
+			display: block;
+			
+		}
+
+		.bottom-section {
+			display: block;			
+		}
+	}
 
 	 //CATALOG 
 
