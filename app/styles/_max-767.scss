@@ -536,7 +536,8 @@ $icon-font-path: '../fonts/';
 			background: url(../images/about-bg-mob-1.png) no-repeat;
 			background-position: 0 0;
 			background-size: contain;
-			height: calc(100vh - 65px - 40px);
+			//height: calc(100vh - 65px - 40px);
+			height: calc(100vh - 60px);
 			
 		}
 
@@ -546,11 +547,13 @@ $icon-font-path: '../fonts/';
 			background-position: 100% 0;
 			background-repeat: no-repeat;
 			background-size: cover;
-			height: calc(100vh - 65px - 40px);
+			//height: calc(100vh - 65px - 40px);
+			height: calc(100vh - 60px);
 		}
 
 		.top-section {			
-			height: calc(100vh - 65px - 40px);
+			//height: calc(100vh - 65px - 40px);
+			height: calc(100vh - 60px);
 		}
 
 		.content {
@@ -560,11 +563,16 @@ $icon-font-path: '../fonts/';
 		}
 
 		.bottom-section {		
-			height: calc(100vh - 65px - 40px);
-			overflow-y: auto;
-			webkit-overflow-scrolling: touch;
+			//height: calc(100vh - 65px - 40px);
+			height: calc(100vh - 60px - 95px);		
 			//border-top: 15px solid transparent;
-			border-bottom: 15px solid transparent;			
+			//border-bottom: 15px solid transparent;
+			overflow: hidden;	
+
+			.text {
+				height: 100%;
+				//padding-bottom: 95px;				
+			}		
 		}
 
 		.pointer-button {			
@@ -1029,7 +1037,7 @@ $icon-font-path: '../fonts/';
 				border: 1px solid #04aaa8;
 
 				a {
-					color: #04aaa8;
+					color: #fff;
 				}
 
 			}

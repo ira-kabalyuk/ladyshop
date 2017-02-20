@@ -5,8 +5,13 @@ $border-color: #dddddd;
 
 .news-page {
 
-	.content-wrap {
+	h2 {
+		height: auto;
 
+		&:after {
+			content: "";				
+			z-index: -1
+		}
 	}
 
 	.back-link {		
@@ -16,17 +21,17 @@ $border-color: #dddddd;
     font-size: 15px;
     font-weight: 400;    
 
-    &:hover,
+    	&:hover,
 		&:focus,
 		&:active {
 			text-decoration: underline;
-    	color: #0080ff;
+    		color: #0080ff;
 		}
 
 		&:before {
-			content: "«";
-			display: inline-block;
-			color: #0080ff;
+		content: "«";
+		display: inline-block;
+		color: #0080ff;
 	    font-size: 15px;
 	    font-weight: 400;
 	    margin-right: 5px;
@@ -90,6 +95,18 @@ $border-color: #dddddd;
 		}
 
 	}
+
+	.right-column {
+
+		.news-text {
+			height: auto;
+
+			&:after {
+				content: "";				
+				z-index: -1
+			}
+		}
+	}	
 
 }
 

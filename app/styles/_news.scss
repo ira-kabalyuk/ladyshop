@@ -33,19 +33,34 @@ $border-color: #dddddd;
 			margin: 17px auto 17px 0;
 			text-align: left;
 			line-height: 1.5em;
+			height: 100px;
+			overflow: hidden;
+			position: relative;
+
+			&:after {
+				content: "";
+				display: block;
+				background: linear-gradient(to right, rgba(255,255,255,0.1), rgba(255,255,255,1));
+				height: 25px;
+				width: 60%;
+				line-height: 2em;
+				
+
+				position: absolute;
+				bottom: 0;
+				right: 0;
+			}
 		}
 
 	}
 
+	.morelink {
+		display: none;
+	}
+
+
 	.news-wrap {
-
-		&:first-child {
-			float: left;
-		}
-
-		&:last-child {
-			float: right;
-		}
+		//float: left;
 
 	}
 
@@ -53,6 +68,23 @@ $border-color: #dddddd;
 		font-size: 20px;
 		font-weight: 600;
 		margin: 20px auto 17px 0;
+		height: 45px;
+		overflow: hidden;
+		position: relative;
+
+		&:after {
+				content: "";
+				display: block;
+				background: linear-gradient(to right, rgba(255,255,255,0.1), rgba(255,255,255,1));
+				height: 25px;
+				width: 60%;
+				line-height: 2em;
+				
+
+				position: absolute;
+				bottom: 0;
+				right: 0;
+			}
 
 		a {
 			font-size: 20px;
@@ -75,6 +107,11 @@ $border-color: #dddddd;
 		font-weight: 400;
 	}
 
+	.paging {
+		//align-items: center;
+		justify-content: center;
+
+	}
 	
 }
 
