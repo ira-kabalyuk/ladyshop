@@ -162,7 +162,12 @@ $border-color: #dddddd;
 	.catalog-main-list {
 
 		.catalog-item {
-			display: none;
+			opacity: 0;
+		}
+
+		.catalog-item.loaded {
+			opacity: 1;
+			transition: opacity 1s;
 		}
 	}
 
@@ -176,6 +181,14 @@ $border-color: #dddddd;
 		margin: 0 10px 20px 10px;
 		list-style: none;		
 		float: left;
+
+			.button-wrap {
+			width: 100%;
+
+			.button {
+				width: 100%;
+			}
+		}
 	}	
 
 	.bottom-block {		
@@ -190,7 +203,10 @@ $border-color: #dddddd;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		margin-bottom: 15px;
 	}
+
+	
 
 	.more-block {		
 		display: none;

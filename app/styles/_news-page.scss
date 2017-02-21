@@ -4,16 +4,7 @@ $page-color: #313131;
 $border-color: #dddddd;
 
 .news-page {
-
-	h2 {
-		height: auto;
-
-		&:after {
-			content: "";				
-			z-index: -1
-		}
-	}
-
+	
 	.back-link {		
     vertical-align: top;
     text-decoration: underline;
@@ -97,6 +88,17 @@ $border-color: #dddddd;
 	}
 
 	.right-column {
+
+		.content-wrap {
+
+			p {
+				margin: 17px auto 17px 0;
+			    text-align: left;
+			    line-height: 1.5em;		   
+			    position: relative;
+			}
+
+		}		
 
 		.news-text {
 			height: auto;
