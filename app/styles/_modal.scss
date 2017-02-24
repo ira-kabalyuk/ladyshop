@@ -180,6 +180,7 @@ $border-color: #dddddd;
 	background: #fff;
 	width: 245px;
 	height: 55px;
+	opacity: 0;
 
 	position: absolute;
 	right: 0;
@@ -201,6 +202,26 @@ $border-color: #dddddd;
 	}
 
 }
+
+@-webkit-keyframes blick{
+	0%	 { opacity: 0; }
+		
+	100% { opacity: 1; }
+}
+
+@keyframes blick{
+	0%	 { opacity: 0; }
+		
+	100% { opacity: 1; }
+}
+
+
+.win-visible {
+	-webkit-animation: blick 2s;
+	animation: blick 2s;
+}
+
+
 
 .cart-window-wrap {
 	display: flex;

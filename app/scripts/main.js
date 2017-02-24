@@ -87,7 +87,8 @@ jQuery(document).ready(function() {
             {
               breakpoint: 1025,
               settings: {
-                arrows: true,
+                arrows: false,
+                dots: true,
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
@@ -97,8 +98,8 @@ jQuery(document).ready(function() {
 
             {
               breakpoint: 992,
-              settings: {
-                arrows: true,
+              settings: { 
+                dots: true,               
                 slidesToShow: 2,
                 slidesToScroll: 1,
                 infinite: true,
@@ -108,8 +109,8 @@ jQuery(document).ready(function() {
 
              {
               breakpoint: 568,
-              settings: {
-                arrows: true,
+              settings: { 
+                dots: true,              
                 slidesToShow: 1,
                 slidesToScroll: 1
               }
@@ -298,7 +299,7 @@ $("#more_button").click(function( e ) {
     $('.left-btn').click(function() {
    var countElem = $(this).parent().find('.counter');
       var count = parseInt(countElem.text()) - 1;
-      if(count < 0) {
+      if(count < 1) {
         return;
         }
       countElem.text(count);        
@@ -350,7 +351,17 @@ $("#more_button").click(function( e ) {
  $(".news-text").shorten({
       "showChars" : 170,     
   });*/
-    
+
+//по клику на кнопку появляется окошечко добавления товара
+
+/*$(".product-button").click(function( e ) {
+      $(".cart-window").removeClass("win-visible")
+        setTimeout(function(){
+          $(".cart-window").addClass("win-visible");
+        })
+    });*/
+
+
 
 });
 

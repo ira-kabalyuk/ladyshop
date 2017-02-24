@@ -187,7 +187,8 @@ $border-color: #dddddd;
 	}
 
 	.button-wrap {
-		text-align: center;	
+		text-align: center;
+		margin-top: 30px;	
 
 		.icon-main-button {
 			margin-right: 13px;
@@ -198,8 +199,7 @@ $border-color: #dddddd;
 	}
 
 	.more-block {
-		display: none;
-		margin-top: 44px;
+		display: none;		
 		text-align: justify;
 
 		&:after {
