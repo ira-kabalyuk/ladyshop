@@ -93,11 +93,8 @@ $border-color: #dddddd;
 
 		.text {
 			color: #777;
-			padding-right: 0;
-
-			overflow: hidden;
-			overflow-y: auto;
-			webkit-overflow-scrolling: touch;
+			padding-right: 0;			
+			//webkit-overflow-scrolling: touch;
 		}
 
 	}

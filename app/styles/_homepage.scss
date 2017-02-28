@@ -3,8 +3,7 @@ $icon-font-path: '../fonts/';
 $page-color: #313131;
 $border-color: #dddddd;
 
-.homepage {
-	
+.homepage {	
 
 	.pagewrap {
 		//height: calc(100vh - 95px);
@@ -188,7 +187,8 @@ $border-color: #dddddd;
 
 	.button-wrap {
 		text-align: center;
-		margin-top: 30px;	
+		margin-top: 30px;
+		margin-bottom: 30px;	
 
 		.icon-main-button {
 			margin-right: 13px;
