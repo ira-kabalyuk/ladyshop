@@ -183,8 +183,10 @@ main {
 
 			a {
 				display: block;
-				height: 37px;
+				//height: 37px;
 				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
 				}
 
 			}
