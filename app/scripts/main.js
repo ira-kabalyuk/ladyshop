@@ -217,7 +217,8 @@ jQuery(document).ready(function() {
 
 $("#more_button").click(function( e ) {
       e.stopPropagation();
-      $(".more-block").toggleClass("is-visible");      
+      $(".more-block").slideToggle(600);
+     $(".more-block").toggleClass("is-visible");
   });
 
 

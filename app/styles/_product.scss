@@ -201,7 +201,7 @@ $border-color: #dddddd;
 		margin-right: -30px;
 
 		.slide-block {
-			display: inline-block;
+			float: left;
 			//width: 234px;
 			width: 25%;	    
 		}
@@ -223,11 +223,12 @@ $border-color: #dddddd;
 	.more-block {		
 		display: none;
 		justify-content: space-between;
-		margin-top: 44px;
+		margin-top: 40px;
+		//transition: all 0.4s;
 	}
 
 	.more-block.is-visible {
-		display: flex;
+		display: block;		
 	}
 
 }
