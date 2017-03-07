@@ -499,7 +499,25 @@ main {
 			margin-top: 10px;		
 		}
 
-	}	 
+	}
+
+.button {
+
+	.icon-main-button {			
+		transition: all .15s ease-in-out;		
+	}
+	
+}
+
+.button.expanded {
+
+		.icon-main-button {
+			transform: rotate(180deg);
+			transition: all .15s ease-in-out;		
+		}
+
+	}
+		 
 
 	
 

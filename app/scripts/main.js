@@ -221,6 +221,10 @@ $("#more_button").click(function( e ) {
      $(".more-block").toggleClass("is-visible");
   });
 
+  $("#more_button").click(function( e ) {
+    $(this).toggleClass("expanded");
+  });
+
 
  $("#trigger").click(function( e ) {
       e.stopPropagation();
