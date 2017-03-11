@@ -4,7 +4,8 @@ $icon-font-path: '../fonts/';
 
 .footer {
 	border-top: 1px solid $border-color;
-	background: #fff;		
+	background: #fff;	
+	
 
 	.footer-top-block {
 		border-bottom: 1px solid $border-color;
@@ -35,6 +36,9 @@ $icon-font-path: '../fonts/';
 	.nav-bar {
 
 		ul {
+			display: block;
+			text-align: center;
+			padding: 30px 0;
 
 			li {
 

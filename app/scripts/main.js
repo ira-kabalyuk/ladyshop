@@ -217,7 +217,7 @@ jQuery(document).ready(function() {
 
 $("#more_button").click(function( e ) {
       e.stopPropagation();
-      $(".more-block").slideToggle(600);
+     $(".more-block").slideToggle(600);
      $(".more-block").toggleClass("is-visible");
   });
 
@@ -228,7 +228,7 @@ $("#more_button").click(function( e ) {
 
  $("#trigger").click(function( e ) {
       e.stopPropagation();
-      $(".more-block").toggleClass("is-visible");
+      /*$(".more-block").toggleClass("is-visible");*/
       $(".slick-prev").toggleClass("is-hidden");
       $(".slick-next").toggleClass("is-hidden");
   });
@@ -295,7 +295,7 @@ $("#more_button").click(function( e ) {
 
    //product-filter
 
-  $('.right-btn').click(function() {
+ /*$('.right-btn').click(function() {
    var countElem = $(this).parent().find('.counter');
       var count = parseInt(countElem.text()) + 1;      
       countElem.text(count);      
@@ -308,7 +308,7 @@ $("#more_button").click(function( e ) {
         return;
         }
       countElem.text(count);        
-    });
+    });*/
 
   //product tab    
 
