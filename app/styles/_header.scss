@@ -10,6 +10,17 @@ $border-color: #dddddd;
 	z-index: 100;
 }
 
+.login-header {
+	border-bottom: none;
+	padding: 20px 0;
+	
+
+	.logo-block {
+		height: auto;
+		
+	}
+}
+
 .header-top-block {	
 	height: 50%;
 	position: relative;	
@@ -186,6 +197,10 @@ nav ul li {
 
 .table-header {
 	height: auto;
+
+	.container {
+		width: 1170px !important;
+	}
 	
 
 	.header-top-block {

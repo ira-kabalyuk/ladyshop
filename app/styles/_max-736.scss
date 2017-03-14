@@ -4,6 +4,18 @@ $icon-font-path: '../fonts/';
 
  //HOMEPAGE
 
+ .login-page, .thank-page {
+	align-items: center;
+	
+	.center-block {
+		margin-top: 0;
+	}
+}
+
+.thank-page {
+	justify-content: center;
+}
+
 	 .homepage {
 
 	 	.title {

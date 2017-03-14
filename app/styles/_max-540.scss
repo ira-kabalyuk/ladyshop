@@ -2,12 +2,27 @@ $icon-font-path: '../fonts/';
 
 @media only screen and (max-width: 540px) {
 
+	 .login-header {	
+		margin-bottom: 0;		
+
+	}
+
+    .login-page, .thank-page {
+
+		.center-block {
+			margin: 0 auto;
+		}
+	}
+
+
 	.header {
 
 		nav ul {
 			//overflow: hidden;
 		}
 	}
+
+	
 
 	.homepage {
 

@@ -17,6 +17,7 @@ $icon-font-path: '../fonts/';
 @import "_order";
 
 //pages
+
 @import "_header";
 @import "_main-blocks";
 @import "_footer";
@@ -30,20 +31,24 @@ $icon-font-path: '../fonts/';
 @import "_shop";
 @import "_thank";
 @import "_table";
+@import "_login-page";
+@import "_thank-page";
+
 
 
 
 //responsive
 @import "_min-768.scss";
 @import "_min-992.scss";  
-@import "_min-1025.scss";    
+@import "_min-1025.scss"; 
 
-@import "_other.scss";
 @import "_max-767.scss";
 @import "_max-736.scss";
 @import "_max-667.scss";
 @import "_max-568.scss";
 @import "_max-540.scss";
 @import "_max-320.scss";
+
+@import "_other.scss";
 
   
