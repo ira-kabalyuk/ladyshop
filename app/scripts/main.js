@@ -326,11 +326,11 @@ $("#more_button").click(function( e ) {
     $(this).parents('.catalog-main-list .catalog-item').addClass('loaded');
   }
 
-  $(".catalog-main-list .catalog-item img").load(onImgload).each(function() {
-    if(this.complete) $(this).load();
+  $(".catalog-main-list .catalog-item img").on('load', onImgload).each(function() {
+    if(this.complete) onImgload.call(this);
   });
 
-  $(window).load(function(){
+  $(window).on('load', function(){
    $(".catalog-main-list .catalog-item").each(function(){
     if(!$(this).hasClass('loaded')) {
      $(this).addClass('loaded');
