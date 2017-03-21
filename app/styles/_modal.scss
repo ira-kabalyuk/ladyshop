@@ -271,3 +271,17 @@ $border-color: #dddddd;
 	color: $page-color;
 	font-style: italic;	
 }
+
+.window {
+	border: 1px solid $border-color;
+	border-radius: 5px;
+	padding: 8px;
+	background: #fff;
+	display: inline-block;
+
+	.name {
+		font-size: 14px;
+		color: $page-color;
+		font-weight: 400;
+	}
+}

@@ -158,6 +158,11 @@ jQuery(document).ready(function() {
           offset: 100
       });    
 
+      /*$('.loaded').addClass("is-hidden").viewportChecker({
+          classToAdd: 'visible animated fadeIn',
+          offset: 100
+      });  */
+
    }
 
    $(".input-head").click(function() {        
