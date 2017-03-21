@@ -1,5 +1,8 @@
 $icon-font-path: '../fonts/';
 
+$page-color: #313131;
+$border-color: #dddddd;
+
 @media only screen and (max-width: 568px) {
 
  //HOMEPAGE
@@ -47,6 +50,61 @@ $icon-font-path: '../fonts/';
 			float: left;
 			
 		}
+	}
+
+	//ORDER-INFO
+
+	.order-info {
+
+		.info-block {
+			padding: 20px 0;
+		}	
+
+
+		.left-column,
+		.right-column {
+			float: none;
+			margin: 20px 0;
+		}
+
+		.left-column {
+			border-bottom: 1px solid $border-color;
+		}
+
+		.name {
+
+			span {
+				display: block;
+				padding: 5px 0;
+			}
+		}
+
+		.info-table {
+			display: block;
+
+			tr {
+				border-bottom: none;
+			}
+
+			td {
+				display: block;
+				padding: 0;
+				padding-bottom: 10px;
+			}
+
+			.price {
+				text-align: left;
+			}
+		}
+
+		.main-price {
+			text-align: left;
+		}
+
+		.info-button {
+			width: 125px;
+		}		
+		
 	}	
 
 }

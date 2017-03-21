@@ -4,7 +4,8 @@ $page-color: #313131;
 $border-color: #dddddd;
 
 .order {
-	margin-top: 80px;
+	min-height: calc(100% - 140px);
+	margin-top: 140px;
 	margin-bottom: 0;
 
 	.container {
