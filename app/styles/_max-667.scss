@@ -74,6 +74,24 @@ $icon-font-path: '../fonts/';
 
 	.catalog {
 		
-	}	
+	}
+
+	//404
+
+	.error-page {
+
+		.bg-block {
+		
+		height: 100%;
+		width: 100%;
+		top: 0;
+		margin-top: 0;
+		}
+
+		.text {
+			padding: 30px 0;
+		}	
+
+	} 
 
 }

@@ -1,0 +1,271 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">    
+    <!-- endbuild -->    
+  </head>
+
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->    
+  
+  <header class="header">
+    <div class="container page-container">
+      <div class="row">       
+        <div class="header-top-block">         
+          <div class="logo-block">
+            <a href="" class="logo">
+              <img src="images/logo.svg" alt="">              
+            </a>            
+          </div>
+          <div class="cart-block">
+            <a href="" class="cart-title" data-toggle="modal" data-target="#myModal">
+              <span>2 товара</span>
+              <i class="icon-cart"></i>
+              <i class="icon-mobile-cart"></i>
+            </a>
+          </div>
+        </div>
+        <nav class="navigation" role="navigation"> 
+          <div class="nav-bar">
+            <div class="mobile-menu">
+              <i class="icon-mobile-menu"></i>
+              <i class="icon-menu-close"></i>
+            </div>
+            
+            <ul>
+              <li>
+                <form class="search-block">
+                  <input type="submit" class="icon-search">
+                  <input type="text" class="search-title" placeholder="Найти">                  
+                </form>
+              </li>
+              <li><a  href="#">Главная</a></li>
+              <li><a href="#">Каталог</a></li>
+              <li><a  href="#">О нас</a></li>
+              <li><a href="#">Новости</a></li>
+              <li><a  href="#">Контакты</a></li>
+            </ul>
+           </div>
+        </nav>        
+      </div>
+    </div>
+
+  </header>
+  
+  <main class="page payment">    
+   
+       <div class="container">
+          <div class="row">
+            <ul class="breadcrumb-list clearfix">
+              <li><a href="#">Вернуться назад</a></li>                          
+            </ul>    
+           
+            <div class="form-block">
+            <h1 class="title">Способ доставки</h1>
+            <form action="">
+               <div class="column">                
+                  <div class="troggle-wrap">
+                    <p class="form-title">Выберите наиболее удобный способ доставки для Вас</p>                    
+                    <div class="input-wrap input-radio-wrap">
+                        <label for="check10" class="label-radio"></label> 
+                        <input type="radio" id="check10" class="radio" name="foo">
+                        <div class="input-description-block">
+                            <label for="check10">Почта России</label> 
+                            <p class="form-title">Доставка по всей РФ, кроме Москвы и СПб +300 Р к заказу. до 10 дней в зависимости от адреса доставки. Отправляется первым классом.</p>
+                        </div>     
+                    </div>
+                    <div class="input-wrap input-radio-wrap">
+                        <label for="check10" class="label-radio"></label> 
+                      <input type="radio" id="check11" class="radio" name="foo">
+                      <div class="input-description-block">
+                        <label for="check11">Курьером</label> 
+                        <p class="form-title">Курьерская доставка по Москве и Спб +350 Р к заказу.  Доставка 1-2 дня</p> 
+                      </div>  
+                    </div>                   
+                  </div>              
+                  <div class="input-wrap">
+                     <label for="check1">Имя<span>*</span></label>
+                     <input type="text" id="check1" placeholder="Введите имя">
+                  </div>
+                  <div class="input-wrap">
+                     <label for="check2">Телефон</label>
+                     <input class="error" type="text" id="check2" placeholder="Введите фамилию">
+                  </div>   
+                  <div class="input-wrap">
+                     <label for="check3">E-mail</label>
+                     <input type="text" id="check3" placeholder="Введите телефон">
+                  </div>
+                                 
+               </div>
+               <div class="column">                              
+                  <div class="input-wrap">
+                     <label for="check5">Город</label>
+                     <input type="text" id="check5" placeholder="Введите город">
+                  </div>
+                  <div class="input-wrap">
+                     <label for="check6">Улица</label>
+                     <input type="text" id="check6" placeholder="Введите улицу">
+                  </div> 
+                  <div class="input-block clearfix">
+                    <div class="input-wrap">
+                       <label for="check7">Дом</label>
+                       <input type="text" id="check7" placeholder="000">                     
+                    </div>
+                    <div class="input-wrap">
+                       <label for="check8">Корпус</label>
+                       <input type="text" id="check8" placeholder="000">
+                    </div> 
+                    <div class="input-wrap">
+                       <label for="check8">Квартира</label>
+                       <input type="text" id="check8" placeholder="000">
+                    </div> 
+                  </div>
+                  
+                   <div class="troggle-wrap">
+                    <p class="form-title">Выберите удобный способ оплаты</p>                    
+                    <div class="input-wrap input-radio-wrap">
+                        <label for="check10" class="label-radio"></label> 
+                      <input type="radio" id="check10" class="radio" name="bot">
+                      <label for="check10">Наличными курьеру</label>                        
+                    </div>
+                    <div class="input-wrap input-radio-wrap">
+                        <label for="check10" class="label-radio"></label> 
+                      <input type="radio" id="check11" class="radio" name="bot">
+                      <label for="check11">Оплата картой online</label>                     
+                    </div>                   
+                  </div>                     
+               </div>
+               <div class="clearfix"></div>
+                <div class="form-bottom-block">                 
+                    <div class="cart modal">
+                       <div class="modal-body">
+                        <div class="modal-header">             
+                          <p>В корзине 1 товар на сумму <span>1200 P</span></p>
+                        </div>             
+
+                         <div class="modal-cart-block clearfix">
+                          <div class="cart-img-block">
+                            <img src="images/cart-img-1.jpg" alt="">
+                          </div>
+                          <div class="cart-description-block">
+                            <h4>Красное платье</h4>
+                            <p class="description">Женская одежда</p>
+                            <p class="description">Размер: L</p>
+                            <p class="cart-price">1200 P</p>
+                          </div>
+                          <p class="delete-link">Убрать из корзины</p>
+                        </div>
+
+                        <div class="modal-cart-block clearfix">
+                          <div class="cart-img-block">
+                            <img src="images/cart-img-1.jpg" alt="">
+                          </div>
+                          <div class="cart-description-block">
+                            <h4>Красное платье</h4>
+                            <p class="description">Женская одежда</p>
+                            <p class="description">Размер: L</p>
+                            <p class="cart-price">1200 P</p>
+                          </div>
+                          <p class="delete-link">Убрать из корзины</p>
+                        </div>
+                      </div>
+                      <div class="button-wrap">
+                        <i class="icon icon-cart-button"></i>
+                       <input type="submit" class="modal-button" value="Отправить заказ">
+                      </div>
+                    </div>
+                </div> 
+             </form> 
+            </div>
+          </div>            
+        </div>   
+        
+  </main>
+
+  
+  <footer class="footer page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-top-block">
+          <div class="logo-block">
+            <a href="" class="logo">
+              <img src="images/logo.svg" alt="">
+            </a>
+          </div>
+          <nav class="navigation" role="navigation"> 
+            <div class="nav-bar">      
+              <ul>              
+                <li><a  href="#">Главная</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a  href="#">О нас</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a  href="#">Контакты</a></li>
+              </ul>
+           </div>
+          </nav>
+          <form class="search-block">
+            <input type="submit" class="icon-search">
+            <input type="text" class="search-title" placeholder="Найти">                  
+          </form>     
+        </div>
+
+        <div class="footer-bottom-block">
+          <div class="container">
+            <div class="row">
+              <a href="" class="copyright">© Lady's Showroom</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+   
+    <!-- build:js scripts/vendor.js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>   
+    
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+
+    
+   
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/jquery.smoothscroll.min.js"></script>
+    <script src="scripts/jquery.viewportchecker.min.js"></script>
+    <script src="scripts/jquery.nice-select.min.js"></script>
+    <script src="scripts/slick.min.js"></script>
+    <script src="scripts/jquery.fullpage.min.js"></script>
+    <script src="scripts/main.js"></script>  
+    <!-- endbuild -->
+
+  </body>
+</html>

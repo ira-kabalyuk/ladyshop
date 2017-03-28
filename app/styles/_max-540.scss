@@ -81,5 +81,45 @@ $icon-font-path: '../fonts/';
 			margin-right: auto;
 		}
 	}
+
+	//PAYMENT
+
+	.payment {
+
+		.input-wrap {
+			width: 100%;
+			margin: 20px 0 0 0;
+		}
+		
+		input {
+			margin-right: 0;
+			width: 100%;
+		}
+
+		.input-block {
+			text-align: justify;
+			
+			.input-wrap {
+				width: auto;
+				float: none;
+				margin-right: 0;
+			}
+
+			&:after {
+				content: "";
+				display: inline-block;
+				width: 100%;
+			}
+
+		}
+
+		.cart.modal {
+
+			.button-wrap {
+				margin: 30px auto 0;
+			}
+		}
+		
+	}	
  
 }

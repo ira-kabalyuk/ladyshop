@@ -1258,6 +1258,58 @@ $icon-font-path: '../fonts/';
 		.table-block {
 			width: 100%;
 		}
-	}			
+	}
+
+	//PAYMENT
+
+	.payment {
+		padding: 90px 15px 70px 15px;
+
+		.input-block {
+
+			.input-wrap {
+				width: auto;
+
+				input {
+					width: 85px;
+				}
+			}
+		}		
+
+		.input-wrap {
+			width: calc(33.333% - 15px);
+			margin: 20px 5px 0 5px;
+
+			input {
+				width: 100%;
+				margin-right: 0;
+				
+			}
+
+			&.input-radio-wrap {
+				width: 100%;
+
+				input {
+					width: auto;
+					margin-right: 15px;
+				}
+			}
+		}		
+
+		
+
+		.modal {
+
+			.modal-body {
+				padding: 15px;
+			}
+
+		}
+
+		
+		
+	}	
+
+
 
 }

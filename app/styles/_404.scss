@@ -1,0 +1,52 @@
+$icon-font-path: '../fonts/';
+
+$page-color: #313131;
+$border-color: #dddddd;
+
+.error-page {	
+	
+    .content-block {       
+        position: relative; 
+        min-height: 100vh; 
+
+        display: flex;
+        align-items: center;
+        justify-content: center;      
+    }
+
+
+    .bg-block {
+        background: url(../images/error-bg.png) no-repeat 50% 50%;
+        background-size: contain;
+        position: absolute;     
+        height: 354px;
+        width: 100%;
+        top: 50%;
+        margin-top: -177px;
+    }
+
+    .text {
+        padding: 40px 0;
+    }
+
+    .button {
+        width: 230px;
+        height: 45px;
+        line-height: 45px;
+        vertical-align: middle;
+    }
+
+    .icon-main-button {
+        margin-right: 13px;
+        vertical-align: top;
+        margin-top: 13px;
+        transform: rotate(90deg);
+    }
+
+    .center-block {
+        position: relative;
+        z-index: 10;
+        text-align: center;
+    }
+    
+}
