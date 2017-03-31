@@ -326,6 +326,7 @@ $icon-font-path: '../fonts/';
 
 	.modal {
 
+		
 		.modal-header {
 			padding: 0;
 			height: 30px;
@@ -365,7 +366,7 @@ $icon-font-path: '../fonts/';
 		}
 
 		.modal-cart-block {
-			height: 168px;
+			min-height: 168px;
 			position: relative;			
 		}
 
@@ -377,8 +378,11 @@ $icon-font-path: '../fonts/';
 		.delete-link {
 			padding: 0;
 			position: absolute;
-			bottom: 15px;
+			//bottom: 15px;
 			left: 73px;
+
+			top: 100%;
+    		margin-top: -35px;
 		}
 
 		
@@ -1235,11 +1239,13 @@ $icon-font-path: '../fonts/';
 	//THANK
 
 	.thank {
+		
 
 		.content-block {
-			height: calc(100vh - 60px - 40px);
-			margin-top: 60px;	
-			overflow-y: scroll;
+			//height: calc(100vh - 60px - 40px);	
+			height: auto;
+			margin: 15px auto;					
+			overflow-y: auto;
 			-webkit-overflow-scrolling: touch;
 		}
 
