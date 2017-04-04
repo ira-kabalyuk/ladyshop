@@ -10,6 +10,18 @@ $border-color: #dddddd;
 	display: table;
 	width: 100%;
 	max-width: 100%;
+
+	.login-link {
+		font-size: 15px;
+		font-weight: 400;
+		color: #666666;
+		text-decoration: underline;
+
+		&:hover {
+			color: #666666;
+			text-decoration: none;
+		}
+	}
 	
 
 	.container {

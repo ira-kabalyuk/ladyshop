@@ -8,6 +8,44 @@ $border-color: #dddddd;
 	width: 100%;
 	background: #fff;
 	z-index: 100;
+
+	.login-link {
+		font-size: 15px;
+		font-weight: 400;
+		color: #666666;
+		text-decoration: underline;
+
+		&:hover {
+			color: #666666;
+			text-decoration: none;
+		}
+	}
+
+	.nice-select {
+		padding: 0 30px 0 10px;
+		z-index: 10;
+		width: 350px;
+
+		.list {
+			width: 100%;
+			padding: 10px;
+			border: solid 1px #e8e8e8;
+		}
+
+		.current {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			display: block;
+		}
+
+		.option {
+			line-height: normal;
+			white-space: normal;
+			min-height: auto;
+			padding: 10px 0;
+		}
+	}
 }
 
 .login-header {
@@ -197,6 +235,11 @@ nav ul li {
 
 .table-header {
 	height: auto;
+
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
 
 	.container {
 		width: 1170px !important;

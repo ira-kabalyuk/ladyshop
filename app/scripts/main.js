@@ -246,7 +246,10 @@ $("#more_button").click(function( e ) {
 
    });*/
 
-  $('.select').niceSelect();
+ $(document).ready(function() {
+      $('select').niceSelect();
+    });
+  
 
      $(".tab-select .option").click(function( e ) {        
        $(".tab-select .option").removeClass("option-active")
@@ -261,6 +264,10 @@ $("#more_button").click(function( e ) {
         $(".mask").addClass("mask-visible");                    
       }
 
+    });
+
+    $(document).ready(function() {
+      $('select').niceSelect();
     });
   
 
