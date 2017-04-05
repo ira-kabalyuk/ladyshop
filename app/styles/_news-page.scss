@@ -98,6 +98,21 @@ $border-color: #dddddd;
 			    position: relative;
 			}
 
+			ol {
+
+				li {
+					line-height: 1.5em;	
+					list-style-position: inside;
+				}
+			}
+
+			ul {
+				li {
+					line-height: 1.5em;	
+					list-style-position: inside;	
+				}
+			}	
+
 		}		
 
 		.news-text {
@@ -108,7 +123,9 @@ $border-color: #dddddd;
 				z-index: -1
 			}
 		}
-	}	
+	}
+
+	
 
 }
 

@@ -63,7 +63,7 @@ $border-color: #dddddd;
 	}
 
 	.table-description-block {
-		margin-top: 10px;
+		
 	}
 
 	.code {
@@ -91,24 +91,14 @@ $border-color: #dddddd;
 	}
 
 	.size-block {
-		//display: inline-block;		
-    //vertical-align: middle;		
-		padding: 11% 0;
-		//text-align: justify;
+		margin: 10px -10px 0 -10px;	
 		width: 100%;
-
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
 		flex-wrap: wrap;
 
-		/*&:after {
-			content: "";
-			display: inline-block;
-			width: 100%;
-			vertical-align: middle;
-			height: 0;
-		}*/
+		
 
 		li {
 			display: inline-block;
