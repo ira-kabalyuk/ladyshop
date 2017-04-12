@@ -1,5 +1,17 @@
 $icon-font-path: '../fonts/';
 
+@mixin object-fit($fit: fill, $position: null){
+  -o-object-fit: $fit;
+     object-fit: $fit;
+  @if $position {
+	  -o-object-position: $position;
+	     object-position: $position;
+  	font-family: 'object-fit: #{$fit}; object-position: #{$position}';
+  } @else {
+  	font-family: 'object-fit: #{$fit}';
+  }
+}
+
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
@@ -52,5 +64,7 @@ $icon-font-path: '../fonts/';
 @import "_max-320.scss";
 
 @import "_other.scss";
+
+
 
   

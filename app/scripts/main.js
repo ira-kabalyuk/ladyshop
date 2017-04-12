@@ -378,9 +378,11 @@ $("#more_button").click(function( e ) {
         })
     });*/
 
-
+objectFitImages();
 
 });
+
+
 
 
 

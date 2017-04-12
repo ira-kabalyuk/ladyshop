@@ -3,6 +3,7 @@ $icon-font-path: '../fonts/';
 $page-color: #313131;
 $border-color: #dddddd;
 
+
 .header {
 	border-bottom: 1px solid $border-color;	
 	width: 100%;
@@ -46,6 +47,13 @@ $border-color: #dddddd;
 			min-height: auto;
 			padding: 10px 0;
 		}
+	}
+}
+
+.product-header {
+
+	.cart-window {
+		display: block;
 	}
 }
 

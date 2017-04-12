@@ -125,6 +125,15 @@ $border-color: #dddddd;
 				li {
 					text-align: center;
 				}
+
+				.option_disabled {
+					cursor: default;
+					color: #f6f6f6;
+
+					a {
+						color: #f6f6f6;
+					}
+				}
 			}
 
 			.option {

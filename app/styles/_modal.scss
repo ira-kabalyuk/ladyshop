@@ -162,8 +162,7 @@ $border-color: #dddddd;
 		font-weight: 600;
 		display: block;
 		padding: 15px 0;
-		border: none;
-		border-radius: 3px;		
+		border: none;			
 
 		&:hover,
 		&:active,
@@ -193,7 +192,8 @@ $border-color: #dddddd;
 
 	position: absolute;
 	right: 0;
-	z-index: 10;
+	z-index: 1;
+	display: none;
 
 	&:after {
 		content:"";
@@ -279,6 +279,13 @@ $border-color: #dddddd;
 	font-size: 14px;
 	color: $page-color;
 	font-style: italic;	
+}
+
+@-moz-document url-prefix() {
+	
+ .window-cart-text {
+	 	font-size: 13px;
+	 }
 }
 
 .window {
