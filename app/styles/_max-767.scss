@@ -2,7 +2,6 @@ $icon-font-path: '../fonts/';
 
 @media only screen and (max-width: 767px) {
 
-
 	.modal-open {
 
 		 //.header { padding-right: 17px}
@@ -900,6 +899,12 @@ $icon-font-path: '../fonts/';
 
 	.product {
 
+		.description {
+			max-height: 100%;
+			overflow: visible;
+			overflow-y: visible;
+		}
+
 		.product-left-column {
 			margin-left: 0;
 		}
@@ -1295,14 +1300,49 @@ $icon-font-path: '../fonts/';
 			&.input-radio-wrap {
 				width: 100%;
 
-				input {
-					width: auto;
-					margin-right: 15px;
+				input {						
+					width: 10px;
+					height: 10px;
+					margin-right: 15px;	
+					visibility: hidden;
+
+					&:before {
+						width: 11px;
+						height: 11px;
+						top: 3px;
+						left: -5px;	
+						visibility: visible;				
+					}	
+
+					&:after {
+						width: 21px;
+						height: 21px;
+						left: -6px;
+						top:2px;
+						visibility: visible;
+					}				
 				}
 			}
+		}
+
+		@-moz-document url-prefix() {
+
+			.input-wrap {			
+
+				&.input-radio-wrap {
+					
+
+					input {						
+						visibility: visible;							
+					}
+				}
+			}
+
 		}		
 
-		
+		.input-description-block {
+			width: calc(100% - 65px);
+		}
 
 		.modal {
 
